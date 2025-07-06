@@ -15,6 +15,9 @@ An automated evaluation setup.
 A conceptual write-up on agent behavior and design choices.
 
 📁 Project Structure
+
+
+
 part1/                    # Core application
 main.py               # FastAPI app
 agent.py              # Agent logic and tool calling
