@@ -18,13 +18,25 @@ A conceptual write-up on agent behavior and design choices.
 
 
 
-part1/                    # Core application
+part1/                 # Core application
+
+
 main.py               # FastAPI app
+
+
 agent.py              # Agent logic and tool calling
+
+
 system_prompt.py      # System prompt for LLM behavior
+
+
  tools/                # Tool modules
-weather_api.py
-wikipedia_tool.py
+
+
+  weather_api.py
+
+
+  wikipedia_tool.py
 requirements.txt
 .env                  # API keys (not tracked in Git)
 README.md             # Setup instructions
