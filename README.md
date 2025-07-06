@@ -32,7 +32,7 @@ A conceptual write-up on agent behavior and design choices.
 │   └── README.md             # Docker usage
 │
 ├── part3/
-│   └── ANSWERS.md            # Answers for agent correctness and prompt design
+  ANSWERS.md            # Answers for agent correctness and prompt design
 
 🚀 Features Implemented
 ✅ Weather API Tool (based on WeatherAPI.com)
