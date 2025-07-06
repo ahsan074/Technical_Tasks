@@ -18,36 +18,52 @@ A conceptual write-up on agent behavior and design choices.
 
 
 
-part1/                 # Core application
+part1/                
 
 
-main.py               # FastAPI app
+main.py             
 
 
-agent.py              # Agent logic and tool calling
+agent.py             
 
 
-system_prompt.py      # System prompt for LLM behavior
+system_prompt.py      
 
 
- tools/                # Tool modules
+ tools/             
 
 
   weather_api.py
 
 
   wikipedia_tool.py
-requirements.txt
-.env                  # API keys (not tracked in Git)
-README.md             # Setup instructions
 
-part2/                    # Dockerization
+  
+requirements.txt
+
+
+.env                  
+
+
+README.md             
+
+
+
+part2/ 
+
+
 Dockerfile
+
+
 .dockerignore
-README.md             # Docker usage
+
+
+README.md            
 
 part3/
-  ANSWERS.md            # Answers for agent correctness and prompt design
+
+
+  ANSWERS.md            
 
 🚀 Features Implemented
 ✅ Weather API Tool (based on WeatherAPI.com)
