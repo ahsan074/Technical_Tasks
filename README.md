@@ -15,23 +15,23 @@ An automated evaluation setup.
 A conceptual write-up on agent behavior and design choices.
 
 📁 Project Structure
-├── part1/                    # Core application
-│   ├── main.py               # FastAPI app
-│   ├── agent.py              # Agent logic and tool calling
-│   ├── system_prompt.py      # System prompt for LLM behavior
-│   ├── tools/                # Tool modules
-│   │   ├── weather_api.py
-│   │   └── wikipedia_tool.py
-│   ├── requirements.txt
-│   ├── .env                  # API keys (not tracked in Git)
-│   └── README.md             # Setup instructions
-│
-├── part2/                    # Dockerization
-│   ├── Dockerfile
-│   ├── .dockerignore
-│   └── README.md             # Docker usage
-│
-├── part3/
+part1/                    # Core application
+main.py               # FastAPI app
+agent.py              # Agent logic and tool calling
+system_prompt.py      # System prompt for LLM behavior
+ tools/                # Tool modules
+weather_api.py
+wikipedia_tool.py
+requirements.txt
+.env                  # API keys (not tracked in Git)
+README.md             # Setup instructions
+
+part2/                    # Dockerization
+Dockerfile
+.dockerignore
+README.md             # Docker usage
+
+part3/
   ANSWERS.md            # Answers for agent correctness and prompt design
 
 🚀 Features Implemented
